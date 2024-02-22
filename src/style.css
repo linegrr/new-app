@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #f9f7fe;
   padding: 30px 0;
 }
 
@@ -13,11 +13,11 @@ main {
   padding: 30px 0;
 }
 footer {
-  border-top: 1px solid #f9f7fe;
+  border-top: 0px solid #f9f7fe;
   font-size: 13px;
   text-align: center;
   padding: 30px 0 0 0;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 a {
