@@ -16,7 +16,7 @@ function updateWeather(response) {
   timeElement.innerHTML = formatDate(date);
   descriptionElement.innerHTML = response.data.condition.description;
   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
-  windSpeedElement.innerHTML = `${response.data.wind.speed}km/h`;
+  windSpeedElement.innerHTML = `${Math.round(response.data.wind.speed)}km/h`;
 
   temperatureElement.innerHTML = Math.round(temperature);
 }
@@ -39,7 +39,7 @@ function formatDate(date) {
     minutes = `0${minutes}`;
   }
 
-  return `${day} ${hours}:${minutes},`;
+  return `${day} ${hours}:${minutes} |`;
 }
 function searchCity(city) {
   let apiKey = `e90345b7ffd471b6670o5atadb5d7dc5`;

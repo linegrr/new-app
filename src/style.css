@@ -1,5 +1,5 @@
 body {
-  background: #79c2d0;
+  background-color: #5585b5;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -51,6 +51,11 @@ a {
   margin-left: 5px;
 }
 
+.search-form-button:hover {
+  background-color: #79c2d0;
+  cursor: pointer;
+}
+
 .weather-app-data {
   display: flex;
   justify-content: space-between;
@@ -88,4 +93,8 @@ a {
   margin-left: 10px;
   font-weight: bold;
   line-height: 88px;
+}
+#time {
+  font-weight: bold;
+  color: #5585b5;
 }
