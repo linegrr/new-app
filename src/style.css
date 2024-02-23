@@ -99,3 +99,22 @@ a {
   font-weight: bold;
   color: #5585b5;
 }
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.9;
+  color: rgb(0, 0, 0);
+}
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.6;
+}
