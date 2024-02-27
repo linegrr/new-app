@@ -104,8 +104,12 @@ a {
   margin-top: 20px;
   text-align: center;
   color: black;
+  display: flex;
+  justify-content: space-around;
 }
-
+.weather-forecast-day:hover {
+  background: #e4e2e2;
+}
 .weather-forecast-date {
   font-size: 16px;
   opacity: 0.9;
@@ -117,4 +121,10 @@ a {
 
 .weather-forecast-temperature-min {
   opacity: 0.6;
+}
+.weather-forecast-icon img {
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
 }
